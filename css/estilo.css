@@ -1,0 +1,135 @@
+/*
+    Código feito para a primeira atividade supervisionada
+    Created on : 29/08/2017, 10:39:50
+    Authors    : Matheus de Oliveira Ferraz Rocha - 2015101884
+                 Ruan Souza Lima                  - 2015101917
+*/
+
+body {
+  font-family:verdana, arial, serif, "Times new roman";
+  font-size: 15px;
+  background-color: rgb(240, 240, 240);
+  margin:0;
+}
+
+.img_logo {
+  float:right;
+  display: inline-block;
+  margin: 5px 10px 5px 10px;
+}
+
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.item_menu {
+  font-size:20px;
+  border:none;
+  display:inline-block;
+  outline:0;
+  padding:5px 10px;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;;
+  text-align:center;
+  cursor:pointer;
+  vertical-align:middle;
+  color:white;
+  white-space:normal;
+
+ }
+
+ .item_menu:hover{
+  color:#000!important;
+  background-color:#ccc!important;
+  transform: scaleY(1.15);
+ }
+
+.inline_b{
+  display:inline-block;
+}
+
+.login {
+  margin: 15% 40%;
+}
+
+p{
+  font-size: 15px;
+  font-family: arial, serif, "Times new roman";
+  margin:5px 20px 5px 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+label {
+  font-size: 18px;
+}
+
+.fonte {
+  font-size:12px;
+}
+
+input {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input:focus {
+    border-color:#888;
+}
+
+input[type=submit] & [type=clean] {
+    padding:5px 10px;
+    border:0 none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:hover, [type=password]:hover {
+    cursor: text;
+}
+
+.link_credito {
+  text-decoration: none;
+  color: rgb(180,180,180);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(145, 85, 77);
+}
+
+h1 {
+  font-weight: lighter;
+  font-size:25px;
+  margin-left: 8px;
+}
+
+h2{
+  font-weight:lighter;
+  font-size:20px;
+  margin-left: 20px;
+}
+
+footer {
+  padding: 5px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align:center;
+  font-size: 12px;
+  background-color: black;
+  color: white;
+}
